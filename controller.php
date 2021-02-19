@@ -13,7 +13,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'c5_reviews';
     protected $appVersionRequired = '8.2';
-    protected $pkgVersion = '1.0.2';
+    protected $pkgVersion = '1.0.3';
     protected $pkgAutoloaderRegistries = [
         'src/A3020/C5Reviews' => '\A3020\C5Reviews',
     ];

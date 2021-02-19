@@ -160,6 +160,6 @@ class Review
      */
     public function getMarketplaceReviewUrl()
     {
-        return rtrim('/', $this->url) .'/reviews';
+        return rtrim($this->url, '/') .'/reviews';
     }
 }
